@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#download-app-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebecf0;
+    padding: 5px 10px;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 #0003;
+}
+
+#download-app-container{
+    display: flex;
+    align-items: center;
+}
+
+#download-app-container span{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#nav-menu-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
