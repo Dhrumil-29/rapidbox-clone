@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flexbox Example</title>
-  <style>
-    .container {
-      display: flex;
-      justify-content: space-between;
-      width: 400px;
-      height: 200px;
-      border: 2px solid #ccc;
-    }
-    .item {
-      width: 100px;
-      height: 100px;
-      background-color: lightblue;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <form action="/action">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" value="" />
+      </div>
+      <div>
+        <label for="">Sex : </label>
+        <input type="radio" name="sex" id="male-sex" checked />
+        <label for="sex">Male</label>
+        <input type="radio" name="sex" id="female-sex" />
+        <label for="sex">Female</label>
+      </div>
+      <div>
+        <label for="country-option">Country:</label>
+        <select name="country-option" id="country-select">
+          <option value="">Select an option</option>
+          <option value="india">India</option>
+          <option value="nepal">Nepal</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+        </select>
+      </div>
+      <div>
+        <label for="messgae">Message:</label>
+        <textarea
+          name="message"
+          id="message-form"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="subscribe" id="sunscribe-checked" />
+        <label for="subscribe">Subscribe?</label>
+      </div>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
 </html>
